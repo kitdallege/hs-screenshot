@@ -1,0 +1,32 @@
+name: hs-screenshot
+version: '0.1.0.0'
+category: Web
+author: Kit Dallege
+maintainer: kitdallege@gmail.com
+copyright: ! 'Copyright: (c) 2017 Kit Dallege'
+license: MIT
+homepage: https://github.com/kitdallege/hs-screenshot
+
+extra-source-files:
+- README.md
+
+dependencies:
+- base >=4.7 && <5
+- aeson
+- bytestring
+- http-client
+- JuicyPixels
+- JuicyPixels-extra
+- manta-client
+- process
+- protolude
+- text
+- webdriver
+- yaml
+
+executables:
+  daily-screenshot:
+    main: Main.hs
+    source-dirs: src
+    ghc-options:
+    - -Wall

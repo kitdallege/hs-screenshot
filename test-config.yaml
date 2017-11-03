@@ -1,0 +1,11 @@
+jarFile: /home/code/virtualenvs/twisted/selenium-server-standalone-2.53.0.jar
+debug: false
+pages:
+  - url: https://lasvegasweekly.com/
+    file: /tmp/lvweekly-home.png
+    manta: 'public/test2/lvw-home.png'
+
+  - url: https://lasvegassun.com/
+    file: /tmp/lvsun-home.png
+    js: "$('#folioBar, #bottom-bar-container, #ad-colB-1').remove()"
+    manta: 'public/test2/lvs-home.png'
