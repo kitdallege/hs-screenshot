@@ -1,6 +1,6 @@
 # hs-screenshot
 Takes a screen shot of the configured webpages and save them to disk with
-the option of uploading them to [Manta] (https://www.joyent.com/triton/object-storage).
+the option of uploading them to [Manta](https://www.joyent.com/triton/object-storage).
 
 
 
@@ -27,7 +27,7 @@ If you do plan to use Manta currently its configured via settings environment va
     $MANTA_URL
     $MANTA_KEY_ID
 
-Consult the [Manta API Doc's] (https://apidocs.joyent.com/manta/) for more information.
+Consult the [Manta API Doc's](https://apidocs.joyent.com/manta/) for more information.
 
 # FWIW
 This is just some code I wrote to scratch an itch, not planning on making anything out of it or publishing it to hackage, etc.
