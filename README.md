@@ -21,7 +21,7 @@ the option of uploading them to [Manta](https://www.joyent.com/triton/object-sto
 * debug
 * manta
 
-If you do plan to use Manta currently its configured via settings environment variables.
+If you do plan to use Manta currently its configured via setting environment variables.
 
     $MANTA_USER
     $MANTA_URL
